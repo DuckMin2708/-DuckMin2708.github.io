@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Câu lạc bộ ngoại khóa</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #333;
+}
+
+header .banner {
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+header .banner h1 {
+    font-size: 2.2em;
+    margin: 0;
+}
+
+.slogan {
+    background: #ffffff;
+    padding: 30px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.slogan .row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.block_3 {
+    width: 250px;
+    text-align: center;
+    background: #f0f6ff;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+    border: 1px solid #cdddf1;
+}
+
+.block_3:hover {
+    transform: translateY(-5px);
+    background: #e5f0ff;
+}
+
+.block_3 h2 {
+    color: #2b4f81;
+    margin-bottom: 10px;
+}
+
+.block_3 p {
+    color: #555;
+}
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+.menu-left {
+    flex: 1;
+    background: #e2e8f0;
+    padding: 30px 20px;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.menu-left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-left li {
+    margin-bottom: 15px;
+}
+
+.menu-left a {
+    display: block;
+    padding: 12px 15px;
+    background: #ffffff;
+    color: #2d3748;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu-left a:hover {
+    background: #4b79a1;
+    color: white;
+}
+
+
+.content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.content-section h2 {
+    color: #283e51;
+    margin-bottom: 15px;
+}
+
+.content-section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.content-section img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+footer {
+    background: #283e51;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #a3d5ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="banner">
+        <h1>Câu lạc bộ ngoại khóa Trường THPT Chuyên Chu Văn An</h1>
+    </div>
+
+    <div class="slogan">
+        <div class="row">
+            <div class="block_3">
+                <h2>Năng động</h2>
+                <p>Hoạt động năng nổ và hiệu quả</p>
+            </div>
+            <div class="block_3">
+                <h2>Đam mê</h2>
+                <p>Cháy hết mình trong các cuộc chơi</p>
+            </div>
+            <div class="block_3">
+                <h2>Tỏa sáng</h2>
+                <p>Giành những giải thưởng cao nhất</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="menu-left">
+        <ul>
+            <li><a href="#mithuat">Mĩ thuật</a></li>
+            <li><a href="#nhiepanh">Nhiếp ảnh</a></li>
+            <li><a href="#amnhac">Âm nhạc</a></li>
+            <li><a href="#khieuvu">Khiêu vũ</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="content-section" id="mithuat">
+            <h2>CLB Mĩ thuật</h2>
+            <p>
+                Câu lạc bộ Mỹ thuật của Trường THPT Chuyên Chu Văn An là nơi quy tụ những học sinh yêu thích hội họa 
+                và sáng tạo nghệ thuật. Với môi trường cởi mở và đầy cảm hứng, câu lạc bộ giúp các bạn khám phá tiềm 
+                năng thẩm mỹ, trau dồi kỹ năng vẽ, thiết kế và cảm nhận nghệ thuật.
+            </p>
+            <img src="ve.jpg" alt="CLB Mĩ thuật">
+        </div>
+
+        <div class="content-section" id="nhiepanh">
+            <h2>CLB Nhiếp ảnh</h2>
+            <p>
+                Câu lạc bộ Nhiếp ảnh là nơi dành cho những học sinh yêu thích khám phá thế giới qua ống kính và kể 
+                chuyện bằng hình ảnh. CLB giúp các thành viên rèn luyện kỹ năng chụp ảnh, chỉnh sửa và phát triển 
+                góc nhìn nghệ thuật.
+            </p>
+            <img src="nhiepanh.jpg" alt="CLB Nhiếp ảnh">
+        </div>
+
+        <div class="content-section" id="amnhac">
+            <h2>CLB Âm nhạc</h2>
+            <p>
+                Câu lạc bộ Âm nhạc là nơi các giai điệu được cất lên từ niềm đam mê. Tại đây, học sinh có thể khám 
+                phá nhiều thể loại âm nhạc, rèn luyện kỹ năng biểu diễn và chơi nhạc cụ trong môi trường trẻ trung, 
+                sáng tạo.
+            </p>
+            <img src="nhac.jpg" alt="CLB Âm nhạc">
+        </div>
+
+        <div class="content-section" id="khieuvu">
+            <h2>CLB Khiêu vũ</h2>
+            <p>
+                Câu lạc bộ Khiêu vũ là nơi học sinh đam mê nghệ thuật biểu diễn thể hiện cảm xúc qua từng chuyển 
+                động cơ thể. Với sự kết hợp giữa kỹ thuật và sáng tạo, CLB mang đến những tiết mục đặc sắc trong 
+                các chương trình của trường.
+            </p>
+            <img src="khieuvu.jpg" alt="CLB Khiêu vũ">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="row">
+        <div>
+            <p>Liên hệ:</p>
+            <ul>
+                <li>Điện thoại: 0123456789</li>
+                <li>Website: <a href="index.html">CLB Ngoại khóa Trường THPT Chuyên Chu Văn An</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <p>Xem chi tiết:</p>
+            <ul>
+                <li><a href="thethao.html">Trang web CLB Thể thao</a></li>
+                <li><a href="nghethuat.html">Trang web CLB Nghệ thuật</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
