@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CLB Ngoại khóa – THPT Chuyên Chu Văn An</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0066cc;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header .slogan {
+      margin-top: 20px;
+    }
+    .slogan .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .slogan .block {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 200px;
+      max-width: 300px;
+      text-align: center;
+    }
+    .slogan .block h2 {
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .section {
+      margin-bottom: 60px;
+    }
+    .flex-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+    }
+    .flex-content .text, .flex-content .image {
+      flex: 1 1 300px;
+    }
+    .flex-content .text h3 {
+      margin-bottom: 10px;
+      color: #0066cc;
+    }
+    .flex-content .text ul {
+      list-style: disc inside;
+      margin-top: 8px;
+    }
+    .flex-content .text a {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 18px;
+      background: #0066cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .flex-content .image img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .register {
+      background: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .register h3 {
+      color: #0066cc;
+      margin-bottom: 16px;
+    }
+    .register .btn-register {
+      padding: 12px 24px;
+      background: #0066cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    .register .btn-register:hover {
+      background: #004999;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      padding: 20px;
+    }
+    footer .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    footer .col {
+      flex: 1 1 200px;
+    }
+    footer a {
+      color: #9ec9ff;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .flex-content {
+        flex-direction: column;
+      }
+      .slogan .row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="banner">
+    <h1>Câu lạc bộ Ngoại khóa</h1>
+    <h2>THPT Chuyên Chu Văn An</h2>
+  </div>
+  <div class="slogan">
+    <div class="row">
+      <div class="block">
+        <h2>Năng động</h2>
+        <p>Hoạt động năng nổ và hiệu quả</p>
+      </div>
+      <div class="block">
+        <h2>Đam mê</h2>
+        <p>Cháy hết mình trong hoạt động</p>
+      </div>
+      <div class="block">
+        <h2>Tỏa sáng</h2>
+        <p>Giành những giải thưởng cao nhất</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="section">
+    <div class="flex-content">
+      <div class="text">
+        <h3>Học siêu – Chơi đỉnh</h3>
+        <p>Các thành tích đạt được:</p>
+        <ul>
+          <li>03 HCV Cầu lông</li>
+          <li>02 HCV, 06 HVB và 05 HCĐ Cờ vua</li>
+          <li>01 giải ba môn Bóng đá nam</li>
+          <li>01 giải nhì Hội thi biểu diễn âm nhạc</li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="img-2.jpg" alt="Thành tích CLB">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="flex-content">
+      <div class="image">
+        <img src="img-4.jpg" alt="CLB Thể thao">
+      </div>
+      <div class="text">
+        <h3>CLB Thể thao</h3>
+        <ul>
+          <li>Bóng đá</li>
+          <li>Bóng rổ</li>
+          <li>Cầu lông</li>
+          <li>Cờ vua</li>
+        </ul>
+        <a href="thethao.html">Chi tiết</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="flex-content">
+      <div class="text">
+        <h3>CLB Nghệ thuật</h3>
+        <ul>
+          <li>Mỹ thuật</li>
+          <li>Nhiếp ảnh</li>
+          <li>Âm nhạc</li>
+          <li>Khiêu vũ</li>
+        </ul>
+        <a href="nghethuat.html">Chi tiết</a>
+      </div>
+      <div class="image">
+        <img src="img-d.jpg" alt="CLB Nghệ thuật">
+      </div>
+    </div>
+  </div>
+
+  <div class="register">
+    <h3>Đăng ký tham gia CLB ngoại khóa</h3>
+    <p>Nếu bạn muốn tham gia các câu lạc bộ của trường, hãy đăng ký tại đây:</p>
+    <a href="dangki.html" class="btn-register">Đăng ký ngay</a>
+  </div>
+</main>
+
+<footer>
+  <div class="row">
+    <div class="col">
+      <p><strong>Liên hệ:</strong></p>
+      <ul>
+        <li>Điện thoại: 0123456789</li>
+        <li>Website: <a href="index.html">CLB Ngoại khóa Trường THPT Chuyên Chu Văn An</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <p><strong>Xem chi tiết:</strong></p>
+      <ul>
+        <li><a href="thethao.html">Trang CLB Thể thao</a></li>
+        <li><a href="nghethuat.html">Trang CLB Nghệ thuật</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
